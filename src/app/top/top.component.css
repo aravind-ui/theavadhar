@@ -1,0 +1,21 @@
+.bg-dark {
+    background-color: #343a40!important;
+}
+.theavadhar-top ul{
+    margin: 0;
+    padding-left: 15px;
+}
+
+.theavadhar-top li{
+    color: #fff;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.theavadhar-top li i{
+    color: #D1050C;
+    padding-right: 15x;
+}
+.theavadhar-top li a{
+    color: #fff;
+}

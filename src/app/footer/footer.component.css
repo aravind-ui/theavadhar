@@ -1,0 +1,40 @@
+.theavadhar_footer{
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.theavadhar_footer_link h3{
+    margin: 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.theavadhar_footer_link ul{
+    padding: 0;
+}
+.theavadhar_footer_link ul li{
+    list-style-type: none;
+    margin: 5px 0;
+}
+.theavadhar_footer_link ul li a{
+    color: #5b5b5b;
+}
+.theavadhar_footer_link ul li a:hover{
+    text-decoration: none;
+    color: #D1050C;
+}
+
+.theavadhar_copyrights{
+    padding: 20px 0;
+}
+
+.theavadhar_copyrights p{
+    margin: 0;
+}
+.theavadhar_copyrights a{
+    color:#212529;
+}
+.theavadhar_copyrights a:hover{
+    text-decoration: none;
+}

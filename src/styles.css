@@ -1,0 +1,182 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: theavadhar;
+    src: url('assets/fonts/averta/Averta-Light.woff') format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+ @font-face {
+    font-family: theavadhar;
+    src: url('assets/fonts/averta/Averta-Regular.woff') format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+ @font-face {
+    font-family: theavadhar;
+    src: url('assets/fonts/averta/Averta-Semibold.woff') format("woff");
+    font-weight: 600;
+    font-style: normal
+}
+ @font-face {
+    font-family: theavadhar;
+    src: url('assets/fonts/averta/Averta-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+ @font-face {
+    font-family: theavadhar;
+    src: url('assets/fonts/averta/Averta-Black.woff') format("woff");
+    font-weight: 900;
+    font-style: normal
+}
+
+
+body{
+    font-family: 'theavadhar', sans-serif !important;
+}
+
+
+/* custom scroll */
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+    background-color: #F5F5F5 !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000000 !important;
+}
+/* custom scroll */
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+.navbar-light .navbar-toggler:focus{
+    outline: none;
+}
+
+.header{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.theavadhar_home_gallery .owl-carousel .owl-item img {
+    /* width: 250px !important; */
+    height: 350px !important;
+    padding: 5px;
+}
+
+.theavadhar_add_section{
+    background-color: #2A2075;
+    padding: 30px;
+}
+
+.theavadhar_add_section h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #352895;
+    padding: 20px;
+    background-color: #281e70;
+    text-transform: uppercase;
+}
+
+.theavadhar_header{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.theavadhar_header h3{
+    padding: 35px 0;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* collections */
+.theavadhar_header:before{
+    content: '';
+    position: absolute;
+    background-color: rgba(43, 30, 118, 0.89);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.theavadhar_poster_section{
+    padding: 25px 0;
+}
+
+.theavadhar_poster_section .poster{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.theavadhar_poster_section .poster:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.theavadhar_poster_section h3{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+}
+
+.theavadhar_collections{
+    padding: 50px 0 25px;
+}
+
+.theavadhar_collection_items .theavadhar_image img{
+    height: 350px;
+    padding: 5px;
+}
+
+.theavadhar_collection_items{
+    box-shadow: 0 2px 4px rgba(0,0,0,.26);
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+}
+.theavadhar_collection_items:hover{
+    box-shadow: 0 14px 45px 0 rgba(0,0,0,.2);
+}
+
+.theavadhar_collection_items .content h3{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+/* collections */

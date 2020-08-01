@@ -1,0 +1,48 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+
+ 
+      <a class="navbar-brand" routerLink="/"> <img src="assets/images/theavadhar-logo.jpg"></a>
+      <button
+      #navbarToggler
+      class="navbar-toggler navbar-toggler-right"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+     
+   <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item ">
+          <a (click)="collapseNav()" class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+            true}"> Home </a>
+      </li>
+      
+      <li class="nav-item">
+        <a (click)="collapseNav()" class="nav-link" routerLink="/mens-wear" routerLinkActive="active" > Mens </a>
+      </li>
+      <li class="nav-item">
+        <a (click)="collapseNav()" class="nav-link" routerLink="/womens-wear" routerLinkActive="active" > Womens </a>
+      </li>
+      <li class="nav-item">
+        <a (click)="collapseNav()" class="nav-link" routerLink="/kids-wear" routerLinkActive="active" > Kids </a>
+      </li>
+      <li class="nav-item">
+        <a (click)="collapseNav()" class="nav-link" routerLink="/festival-collection" routerLinkActive="active" > Festival Colection </a>
+      </li>
+      <li class="nav-item">
+        <a (click)="collapseNav()" class="nav-link" routerLink="/about-us" routerLinkActive="active" > About Us </a>
+      </li>
+      <li class="nav-item">
+        <a (click)="collapseNav()" class="nav-link" routerLink="/contact-us" routerLinkActive="active" > Contact Us </a>
+      </li>
+    </ul>
+   
+  </div>
+</div>
+</nav>
