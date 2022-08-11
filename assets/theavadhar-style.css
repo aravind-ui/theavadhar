@@ -28,6 +28,16 @@ body {
   margin: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+  .contact_section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .contact_section p {
+    margin: 5px;
+  }
+}
 
 .status_section p{
     color: #ff0000;
