@@ -11,6 +11,14 @@ body {
   background-color: #e5e5e5;
 }
 
+.logo_section {
+  text-align: center;
+}
+
+.logo_section img {
+  width: 30%;
+}
+
 .contact_section {
   display: flex;
 }
